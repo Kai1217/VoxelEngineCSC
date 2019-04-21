@@ -1,0 +1,11 @@
+C:\Users\kaima\Documents\Programs\C#\VoxelEngineCSC\obj\Debug\netcoreapp2.1\VoxelEngineCSC.csprojAssemblyReference.cache
+C:\Users\kaima\Documents\Programs\C#\VoxelEngineCSC\obj\Debug\netcoreapp2.1\VoxelEngineCSC.csproj.CoreCompileInputs.cache
+C:\Users\kaima\Documents\Programs\C#\VoxelEngineCSC\obj\Debug\netcoreapp2.1\VoxelEngineCSC.AssemblyInfoInputs.cache
+C:\Users\kaima\Documents\Programs\C#\VoxelEngineCSC\obj\Debug\netcoreapp2.1\VoxelEngineCSC.AssemblyInfo.cs
+C:\Users\kaima\Documents\Programs\C#\VoxelEngineCSC\bin\Debug\netcoreapp2.1\VoxelEngineCSC.deps.json
+C:\Users\kaima\Documents\Programs\C#\VoxelEngineCSC\bin\Debug\netcoreapp2.1\VoxelEngineCSC.runtimeconfig.json
+C:\Users\kaima\Documents\Programs\C#\VoxelEngineCSC\bin\Debug\netcoreapp2.1\VoxelEngineCSC.runtimeconfig.dev.json
+C:\Users\kaima\Documents\Programs\C#\VoxelEngineCSC\bin\Debug\netcoreapp2.1\VoxelEngineCSC.dll
+C:\Users\kaima\Documents\Programs\C#\VoxelEngineCSC\bin\Debug\netcoreapp2.1\VoxelEngineCSC.pdb
+C:\Users\kaima\Documents\Programs\C#\VoxelEngineCSC\obj\Debug\netcoreapp2.1\VoxelEngineCSC.dll
+C:\Users\kaima\Documents\Programs\C#\VoxelEngineCSC\obj\Debug\netcoreapp2.1\VoxelEngineCSC.pdb

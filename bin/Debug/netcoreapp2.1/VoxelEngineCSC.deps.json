@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "e563a2bec3a58214ab63d7fef66d1c01eda96466"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "VoxelEngineCSC/1.0.0": {
+        "dependencies": {
+          "OpenTK": "3.0.1"
+        },
+        "runtime": {
+          "VoxelEngineCSC.dll": {}
+        }
+      },
+      "OpenTK/3.0.1": {
+        "runtime": {
+          "lib/net20/OpenTK.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VoxelEngineCSC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTK/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V0NytNsN8ClXq6QikD7YXJfwEbexCxGAdfIRqxBJvLgijAZR6FrGiv8jwoma68cU3jLcEC//uxrgSnWa9DVcfA==",
+      "path": "opentk/3.0.1",
+      "hashPath": "opentk.3.0.1.nupkg.sha512"
+    }
+  }
+}
