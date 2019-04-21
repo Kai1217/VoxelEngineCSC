@@ -7,6 +7,7 @@ using OpenTK.Graphics.OpenGL;
 using OpenTK.Input;
 using OpenTK.Graphics;
 
+
 namespace VoxelEngineCSC
 {
     public class Window : GameWindow
