@@ -17,32 +17,19 @@ namespace VoxelEngineCSC
         /// </summary>
         public int SaveWorldToFile()
         {
-            var error = new MyException();
-            FileStream F = new FileStream("world.bin", FileMode.Open, FileAccess.Write);
+            string FileName = "world.bin";
+            FileStream F = new FileStream(FileName, FileMode.Open, FileAccess.Write);
             var savefile = F;
-            
-            try
+
+            if (!File.Exists(FileName))
             {
-                bool exists = File.Exists("world.bin");
-            }
-            catch (FileNotFoundException e)
+                Console.WriteLine("[FATAL] Failed to open file {0}!\n", FileName);
+                return 1;
+            } else
             {
-                throw (error);
-               /*  {
-                    Console.WriteLine("[FATAL] Could not save world to file!\n");
-                    return 1;
-                } */
-                
+                Console.WriteLine("Successfully opened file {0}.\n", FileName);
+                return 0;
             }
-            return 0;
-        }
-    }
-    class MyException : SystemException
-    {
-        public void ErrorMessage()
-        {
-            Console.WriteLine("[FATAL] Could not save world to file!\n");
-            Console.ReadKey();
         }
     }
 }
