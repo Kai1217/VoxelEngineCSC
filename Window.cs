@@ -62,6 +62,25 @@ namespace VoxelEngineCSC
             SwapBuffers();
         }
         Camera cam = new Camera();
-        
+
+        private void InputManagement()
+        {
+            if (Keyboard.GetState().IsKeyDown(Key.W))
+            {
+                cam.Move(0f, 0.1f, 0f);
+            }
+            if (Keyboard.GetState().IsKeyDown(Key.S))
+            {
+                cam.Move(0f, -0.1f, 0f);
+            }
+            if (Keyboard.GetState().IsKeyDown(Key.D))
+            {
+                cam.Move(0.1f, 0f, 0f);
+            }
+            if (Keyboard.GetState().IsKeyDown(Key.A))
+            {
+                cam.Move(-0.1f, 0f, 0f);
+            }
+        }
     }
 }
