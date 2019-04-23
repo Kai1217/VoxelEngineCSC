@@ -61,5 +61,7 @@ namespace VoxelEngineCSC
             GL.End();
             SwapBuffers();
         }
+        Camera cam = new Camera();
+        
     }
 }
