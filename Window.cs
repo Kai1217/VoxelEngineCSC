@@ -25,14 +25,14 @@ namespace VoxelEngineCSC
             GL.Enable(EnableCap.DepthTest);
         }
         protected override void OnUpdateFrame(FrameEventArgs e)
-        {
-            var input = Keyboard.GetState();
-            
-            if (input.IsKeyDown(Key.Escape))
+        {            
+            if (Keyboard.GetState().IsKeyDown(Key.Escape))
             {
                 Exit();
             }
-            
+
+            InputManagement();
+
             base.OnUpdateFrame(e);
         }
         protected override void OnResize(EventArgs e)
@@ -82,5 +82,6 @@ namespace VoxelEngineCSC
                 cam.Move(-0.1f, 0f, 0f);
             }
         }
+        Vector2 LastMousePosition = new Vector2(OpenTK.Input.Mouse.GetState().X, OpenTK.Input.Mouse.GetState().Y);        
     }
 }
