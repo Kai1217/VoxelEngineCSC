@@ -20,7 +20,6 @@ namespace VoxelEngineCSC
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
-
             GL.ClearColor(0.1f, 0.2f, 0.5f, 0.0f);
             GL.Enable(EnableCap.DepthTest);
         }
@@ -62,7 +61,12 @@ namespace VoxelEngineCSC
             SwapBuffers();
         }
         Camera cam = new Camera();
-
+        void initProgram()
+        {
+            Vector2 LastMousePosition = new Vector2();
+            CursorVisible = false;
+            cam.MouseSensitivity = 0.0025f;
+        }  
         private void InputManagement()
         {
             if (Keyboard.GetState().IsKeyDown(Key.W))
@@ -81,7 +85,6 @@ namespace VoxelEngineCSC
             {
                 cam.Move(-0.1f, 0f, 0f);
             }
-        }
-        Vector2 LastMousePosition = new Vector2(OpenTK.Input.Mouse.GetState().X, OpenTK.Input.Mouse.GetState().Y);        
+        }     
     }
 }
